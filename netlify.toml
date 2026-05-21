@@ -1,7 +1,0 @@
-[build]
-  publish = "."
-  command = ""
-
-[context]
-  # This file tells Netlify to publish from the repo root.
-  # No build command is required for a plain static site.

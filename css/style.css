@@ -336,7 +336,6 @@ nav {
 }
 
 /* ── MON APPROCHE ── */
-/* ── MON APPROCHE ── */
 #approche {
   color: var(--cream);
   background: var(--ink);
@@ -344,7 +343,7 @@ nav {
 }
 
 #approche .section-divider span { color: var(--gold); }
-#approche .section-divider::after { background: rgba(255,255,255,0.1); }
+#approche .section-divider::after { background: var(--line); }
 
 .approach-inner {
   max-width: 1200px;
@@ -373,7 +372,7 @@ nav {
   color: var(--gold);
 }
 
-.approach-inner > p,
+
 .approach-header > p {
   font-size: 0.8rem;
   line-height: 2.2;
