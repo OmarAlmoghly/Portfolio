@@ -6,16 +6,19 @@
 ## 🗂️ Structure des fichiers
 
 ```
-Portfolio/
-├── index.html          ← Page principale du portfolio
-├── style.css           ← Styles personnalisés
-├── script.js           ← Animations fade-in au scroll
-├── placeholder.css     ← Styles des pages design
-├── Omar.jpeg           ← Photo de profil
-├── design1.html        ← Placeholder — Site de services
-├── design2.html        ← Placeholder — Jeu de mémoire
-├── design3.html        ← Placeholder — Boutique e-commerce
-└── design4.html        ← Placeholder — Dashboard analytique
+portfolio/
+├── index.html         
+├── css/
+│   ├── style.css
+│   └── placeholder.css
+├── js/
+│   └── main.js
+├── images/
+└── pages/
+    ├── projet1.html
+    ├── projet2.html
+    ├── projet3.html
+    └── projet4.html
 ```
 
 ---
