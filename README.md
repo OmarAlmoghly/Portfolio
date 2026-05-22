@@ -65,7 +65,7 @@ portfolio/
 ### 📂 Projets (4 placeholders)
 | # | Titre | Icône |
 |---|---|---|
-| 01 | Site de services locaux | `bi-tools` |
+| 01 | Site de services locaux | `bi-scissors` |
 | 02 | Jeu de mémoire interactif | `bi-controller` |
 | 03 | Boutique en ligne | `bi-cart` |
 | 04 | Dashboard analytique | `bi-bar-chart-line` |
