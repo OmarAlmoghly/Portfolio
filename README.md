@@ -124,6 +124,6 @@ portfolio/
 
 ## 👨‍💻 Auteur
 
-**Omar Almoghly** — `Oalmo045@uottawa.ca`
+**Omar Almoghly** — `oalmo045@uottawa.ca`
 Étudiant en génie logiciel, 2e année · Université d'Ottawa
 [LinkedIn](https://linkedin.com/in/omar-basman-almoghly-37208b328) · [GitHub](https://github.com/OmarAlmoghly) · [Instagram](https://instagram.com/omar_almoghly1)
