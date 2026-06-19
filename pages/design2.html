@@ -7,7 +7,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=DM+Mono:wght@300&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"/>
   <link rel="stylesheet" href="../css/placeholder.css"/>
-  <style> body { background: #1e2a1a; } </style>
+  <style>
+    body { background: #1e2a1a; }
+    .ph-play-btn {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 14px 32px;
+      background: #c9a227;
+      color: #1e2a1a;
+      border-radius: 4px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .ph-play-btn:hover { background: #e8d9a0; }
+    .ph-play-btn i { margin-right: 8px; }
+  </style>
 </head>
 <body>
 
@@ -28,29 +47,35 @@
     </h1>
     <div class="ph-line"></div>
     <p class="ph-desc">
-      Un jeu de mémoire interactif entièrement développé en JavaScript.
-      L'interface sera engageante, les animations fluides, et la logique
-      de jeu complète — niveaux de difficulté, score et minuterie inclus.
+      Un jeu de mémoire interactif développé en React (JavaScript). Le joueur doit
+      retrouver les paires correspondantes parmi des cartes cachées, avec trois niveaux
+      de difficulté et deux thèmes de cartes au choix. Le jeu garde le score selon le
+      nombre de coups et le temps, avec une rétroaction visuelle immédiate.
     </p>
     <div class="ph-badge-row">
-      <span class="ph-badge"><i class="bi bi-filetype-js"></i> JavaScript</span>
+      <span class="ph-badge"><i class="bi bi-filetype-js"></i> JavaScript / React</span>
       <span class="ph-badge"><i class="bi bi-controller"></i> Game UX</span>
       <span class="ph-badge"><i class="bi bi-stars"></i> Animation</span>
       <span class="ph-badge"><i class="bi bi-stopwatch"></i> Timer</span>
     </div>
-    <span class="ph-status"> À venir — Devoir 3</span>
+    <span class="ph-status">Complété — Devoir 3</span>
+    <br/>
+    <a href="https://omaralmoghly.github.io/jeu-memoire/" target="_blank" class="ph-play-btn">
+      <i class="bi bi-play-fill"></i>Jouer maintenant
+    </a>
     <div class="ph-bg-num">02</div>
   </section>
 
   <section class="ph-info">
     <h2 class="ph-info-title">À <em>propos</em> du projet</h2>
-    <p>Ce jeu de mémoire sera développé entièrement avec JavaScript vanilla.
-    Le joueur devra retourner des cartes et trouver les paires correspondantes
-    dans un temps limité. Le design sera dynamique et réactif aux actions
-    de l'utilisateur.</p>
-    <p>L'accent sera mis sur l'expérience de jeu : animations satisfaisantes,
-    feedback visuel immédiat, et progression claire. Les principes de design
-    interactif et de micro-interactions seront explorés en profondeur.</p>
+    <p>Ce jeu de mémoire a été développé avec React (Vite). Le joueur retourne des
+    cartes et doit trouver les paires correspondantes dans un temps limité. Le design
+    est dynamique et réactif aux actions de l'utilisateur, avec une palette cohérente
+    avec le reste du portfolio.</p>
+    <p>L'accent a été mis sur l'expérience de jeu : animations satisfaisantes,
+    feedback visuel immédiat (couleur verte pour une paire trouvée), et progression
+    claire à travers trois niveaux de difficulté. Les principes de Gestalt (similarité,
+    fermeture, forme et fond) ont guidé les choix de conception visuelle.</p>
     <div class="ph-detail-grid">
       <div class="ph-detail-item">
         <div class="ph-detail-label">Type</div>
@@ -58,11 +83,11 @@
       </div>
       <div class="ph-detail-item">
         <div class="ph-detail-label">Technologie</div>
-        <div class="ph-detail-value">JavaScript · CSS</div>
+        <div class="ph-detail-value">React · JavaScript · CSS</div>
       </div>
       <div class="ph-detail-item">
         <div class="ph-detail-label">Statut</div>
-        <div class="ph-detail-value">À venir</div>
+        <div class="ph-detail-value">Complété</div>
       </div>
     </div>
   </section>
