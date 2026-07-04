@@ -7,7 +7,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=DM+Mono:wght@300&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"/>
   <link rel="stylesheet" href="../css/placeholder.css"/>
-  <style> body { background: #1a1a2e; } </style>
+  <style>
+    body { background: #1a1a2e; }
+    .ph-play-btn {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 14px 32px;
+      background: #c9a227;
+      color: #1a1a2e;
+      border-radius: 4px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .ph-play-btn:hover { background: #e8d9a0; }
+    .ph-play-btn i { margin-right: 8px; }
+  </style>
 </head>
 <body>
 
@@ -28,29 +47,36 @@
     </h1>
     <div class="ph-line"></div>
     <p class="ph-desc">
-      Interface e-commerce complète avec catalogue produits, panier d'achat
-      et flux de commande. L'enjeu : une expérience d'achat intuitive,
+      Interface e-commerce complète avec catalogue produits, recherche à facettes,
+      panier d'achat et flux de commande. L'enjeu : une expérience d'achat intuitive,
       rassurante et agréable qui donne envie de revenir.
     </p>
     <div class="ph-badge-row">
       <span class="ph-badge"><i class="bi bi-cart3"></i> E-commerce</span>
       <span class="ph-badge"><i class="bi bi-credit-card"></i> Checkout UX</span>
       <span class="ph-badge"><i class="bi bi-phone"></i> Responsive</span>
-      <span class="ph-badge"><i class="bi bi-search"></i> Catalogue</span>
+      <span class="ph-badge"><i class="bi bi-search"></i> Recherche à facettes</span>
     </div>
-    <span class="ph-status"> À venir — Devoir 4</span>
+    <span class="ph-status">Complété — Devoir 4</span>
+    <br/>
+    <a href="https://omaralmoghly.github.io/Chez-nous/" target="_blank" class="ph-play-btn">
+      <i class="bi bi-shop"></i>Visiter la boutique
+    </a>
     <div class="ph-bg-num">03</div>
   </section>
 
   <section class="ph-info">
     <h2 class="ph-info-title">À <em>propos</em> du projet</h2>
-    <p>Ce projet e-commerce explorera la conception d'une boutique en ligne
-    complète. Du catalogue produits au tunnel d'achat, chaque étape du
-    parcours utilisateur sera pensée pour maximiser la confiance et
-    minimiser les frictions.</p>
-    <p>Le design s'appuiera sur les principes de Nielsen Norman Group
-    concernant l'e-commerce : clarté des prix, images de qualité,
-    processus de commande simplifié et signaux de confiance visibles.</p>
+    <p>Ce projet e-commerce, « Chez Nous », est une épicerie en ligne complète
+    développée en React (Vite). Du catalogue produits filtrable par facettes
+    (catégorie, préférences alimentaires, marque, format, promotions, prix) au
+    tunnel de commande en quatre étapes, chaque partie du parcours utilisateur
+    a été pensée pour maximiser la confiance et minimiser les frictions.</p>
+    <p>Le design s'appuie sur les principes de Nielsen Norman Group concernant
+    l'e-commerce : clarté des prix, étiquetage transparent des produits (bio,
+    végane, halal, sans gluten, contenant de l'alcool, etc.), processus de
+    commande simplifié avec rétroaction claire à chaque étape, et confirmation
+    de commande envoyée automatiquement par courriel au client.</p>
     <div class="ph-detail-grid">
       <div class="ph-detail-item">
         <div class="ph-detail-label">Type</div>
@@ -58,11 +84,11 @@
       </div>
       <div class="ph-detail-item">
         <div class="ph-detail-label">Technologie</div>
-        <div class="ph-detail-value">HTML · CSS · JS · Bootstrap</div>
+        <div class="ph-detail-value">React · Vite · EmailJS</div>
       </div>
       <div class="ph-detail-item">
         <div class="ph-detail-label">Statut</div>
-        <div class="ph-detail-value">À venir</div>
+        <div class="ph-detail-value">Complété</div>
       </div>
     </div>
   </section>
