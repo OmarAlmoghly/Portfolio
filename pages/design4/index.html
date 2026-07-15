@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr" id="html-root">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>La Liga Stats Hub | Tableau de bord La Liga</title>
+
+<!-- React 18 (CDN) -->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<!-- Babel for JSX in-browser (pas de build requis) -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<!-- Fonts: Playfair Display (serif display, identique au portfolio) + Inter (body/UI) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<!-- Feuille de style externe -->
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="root"></div>
+
+<!-- Composant React externe, chargé et compilé par Babel dans le navigateur -->
+<script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
