@@ -8,35 +8,38 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"/>
   <link rel="stylesheet" href="../css/placeholder.css"/>
   <style>
-    body { background: #6fae6f; }
+    body { background: #1a2617; }
     .ph-play-btn {
       display: inline-block;
       margin-top: 28px;
-      padding: 14px 32px;
-      background: #6fae6f;
-      color: #1e2a1a;
-      border-radius: 4px;
+      padding: 12px 28px;
+      background: transparent;
+      color: #c9a84c;
+      border: 1px solid rgba(201,168,76,0.4);
+      border-radius: 2px;
       font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: 0.85rem;
+      font-size: 0.7rem;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      font-weight: 600;
+      letter-spacing: 0.25em;
+      font-weight: 500;
       text-decoration: none;
-      transition: background 0.2s;
+      transition: all 0.3s ease;
     }
-    .ph-play-btn:hover { background: #e8d9a0; }
+    .ph-play-btn:hover {
+      background: rgba(201,168,76,0.1);
+      border-color: #c9a84c;
+      color: #e8d9a0;
+    }
     .ph-play-btn i { margin-right: 8px; }
   </style>
 </head>
 <body>
-
   <nav class="ph-nav">
     <span class="ph-nav-logo">Omar Almoghly</span>
     <a href="index.html" class="ph-back">
       <i class="bi bi-arrow-left"></i> Retour au portfolio
     </a>
   </nav>
-
   <section class="ph-hero">
     <div class="ph-eyebrow">Projet 02 · Jeu interactif</div>
     <div class="ph-icon-wrap">
@@ -65,7 +68,6 @@
     </a>
     <div class="ph-bg-num">02</div>
   </section>
-
   <section class="ph-info">
     <h2 class="ph-info-title">À <em>propos</em> du projet</h2>
     <p>Ce jeu de mémoire a été développé avec React (Vite). Le joueur retourne des
@@ -91,11 +93,9 @@
       </div>
     </div>
   </section>
-
   <footer class="ph-footer">
     <span>Omar Almoghly — SEG3525</span>
     <span>Université d'Ottawa · 2026</span>
   </footer>
-
 </body>
 </html>
